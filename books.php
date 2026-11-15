@@ -1011,7 +1011,7 @@ $stmt->close();
 
 <!-- JAVASCRIPT -->
 
-<script src="assets/js/app.js?v=7"></script>
+<script src="assets/js/app.js?v=8"></script>
 
 </body>
 </html>
