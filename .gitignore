@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+config/db.php
+config/.env
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
