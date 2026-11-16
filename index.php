@@ -653,11 +653,11 @@ $categoryIcons = [
                         <?php if (!empty($book["cover_image"])): ?>
 
 
-                            <img
-                                src="<?= bookhaven_escape($book["cover_image"]) ?>"
-                                alt="<?= bookhaven_escape($book["title"]) ?>"
-                                loading="lazy"
-                            >
+                           <img
+                           src="uploads/book_covers/<?= bookhaven_escape(basename($book["cover_image"])) ?>"
+                         alt="<?= bookhaven_escape($book["title"]) ?>"
+                        loading="lazy"
+>
 
 
                         <?php else: ?>
